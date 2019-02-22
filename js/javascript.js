@@ -5,6 +5,7 @@ let b = 0;
 let c = 0;
 let d = 0;
 let e = 0;
+let f = 0;
 let images7 = [];
 let images6 = [];
 let images5 = [];
@@ -16,21 +17,17 @@ let time = 2500;
 
 //Menu Animation
 
-window.onscroll = function () {
-    scrollFunction()
+window.onscroll = function() {
+  scrollFunction();
 };
 
-
 function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("menu").style.top = "0";
-    } else {
-        document.getElementById("menu").style.top = "-50px";
-    }
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("menu").style.top = "0";
+  } else {
+    document.getElementById("menu").style.top = "-50px";
+  }
 }
-
-
-
 
 // Image List i
 images[0] = "./images/prototype4_1366x768.png";
@@ -43,52 +40,49 @@ images[5] = "./images/prototype1_1366x768.png";
 
 // Change Image
 function changeImg() {
-    document.slide1.src = images[i];
+  document.slide1.src = images[i];
 
-    // Check If Index Is Under Max
-    if (i < images.length - 1) {
-        // Add 1 to Index
-        i++;
-    } else {
-        // Reset Back To O
-        i = 0;
-    }
+  // Check If Index Is Under Max
+  if (i < images.length - 1) {
+    // Add 1 to Index
+    i++;
+  } else {
+    // Reset Back To O
+    i = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg, time)
+setInterval(changeImg, time);
 
 // Run function when page loads
 window.onload = changeImg;
 
-
 // Image List o
-images2[0] = "./images/redesign1_1366x768.png";
-images2[1] = "./images/redesign2_1366x768.png";
-images2[2] = "./images/redesign3_1366x768.png";
-images2[3] = "./images/redesign4_1366x768.png";
+images2[0] = "./images/mmd-curriculum4_1366x768.png";
+images2[1] = "./images/mmd-curriculum3_1366x768.png";
+images2[2] = "./images/mmd-curriculum2_1366x768.png";
+images2[3] = "./images/mmd-curriculum1_1366x768.png";
 
 // Change Image2
 function changeImg2() {
-    document.slide2.src = images2[o];
+  document.slide2.src = images2[o];
 
-    // Check If Index Is Under Max
-    if (o < images2.length - 1) {
-        // Add 1 to Index
-        o++;
-    } else {
-        // Reset Back To O
-        o = 0;
-    }
+  // Check If Index Is Under Max
+  if (o < images2.length - 1) {
+    // Add 1 to Index
+    o++;
+  } else {
+    // Reset Back To O
+    o = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg2, time)
+setInterval(changeImg2, time);
 
 // Run function when page loads
 window.onload = changeImg2;
-
-
 
 // Image List a
 images3[0] = "./images/flower-video2_1366x768.png";
@@ -102,25 +96,23 @@ images3[7] = "./images/flower-video_1366x768.png";
 
 // Change Image3
 function changeImg3() {
-    document.slide3.src = images3[a];
+  document.slide3.src = images3[a];
 
-    // Check If Index Is Under Max
-    if (a < images3.length - 1) {
-        // Add 1 to Index
-        a++;
-    } else {
-        // Reset Back To O
-        a = 0;
-    }
+  // Check If Index Is Under Max
+  if (a < images3.length - 1) {
+    // Add 1 to Index
+    a++;
+  } else {
+    // Reset Back To O
+    a = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg3, time)
+setInterval(changeImg3, time);
 
 // Run function when page loads
 window.onload = changeImg3;
-
-
 
 // Image List b
 images4[0] = "./images/bike-video_1366x768.png";
@@ -137,25 +129,23 @@ images4[10] = "./images/bike-video11_1366x768.png";
 
 // Change Image4
 function changeImg4() {
-    document.slide4.src = images4[b];
+  document.slide4.src = images4[b];
 
-    // Check If Index Is Under Max
-    if (b < images4.length - 1) {
-        // Add 1 to Index
-        b++;
-    } else {
-        // Reset Back To O
-        b = 0;
-    }
+  // Check If Index Is Under Max
+  if (b < images4.length - 1) {
+    // Add 1 to Index
+    b++;
+  } else {
+    // Reset Back To O
+    b = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg4, time)
+setInterval(changeImg4, time);
 
 // Run function when page loads
 window.onload = changeImg4;
-
-
 
 // Image List c
 images5[0] = "./images/totoro-animation_1366x768.png";
@@ -166,25 +156,23 @@ images5[4] = "./images/totoro-animation5_1366x768.png";
 
 // Change Image5
 function changeImg5() {
-    document.slide5.src = images5[c];
+  document.slide5.src = images5[c];
 
-    // Check If Index Is Under Max
-    if (c < images5.length - 1) {
-        // Add 1 to Index
-        c++;
-    } else {
-        // Reset Back To O
-        c = 0;
-    }
+  // Check If Index Is Under Max
+  if (c < images5.length - 1) {
+    // Add 1 to Index
+    c++;
+  } else {
+    // Reset Back To O
+    c = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg5, time)
+setInterval(changeImg5, time);
 
 // Run function when page loads
 window.onload = changeImg5;
-
-
 
 // Image List d
 images6[0] = "./images/ineractive-animation_1366x768.png";
@@ -194,24 +182,23 @@ images6[3] = "./images/ineractive-animation4_1366x768.png";
 
 // Change Image6
 function changeImg6() {
-    document.slide6.src = images6[d];
+  document.slide6.src = images6[d];
 
-    // Check If Index Is Under Max
-    if (d < images6.length - 1) {
-        // Add 1 to Index
-        d++;
-    } else {
-        // Reset Back To O
-        d = 0;
-    }
+  // Check If Index Is Under Max
+  if (d < images6.length - 1) {
+    // Add 1 to Index
+    d++;
+  } else {
+    // Reset Back To O
+    d = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg6, time)
+setInterval(changeImg6, time);
 
 // Run function when page loads
 window.onload = changeImg6;
-
 
 // Image List e
 images7[0] = "./images/prototype-rs_1366x768.png";
@@ -220,24 +207,22 @@ images7[2] = "./images/prototype-app-2_1366x768.png";
 images7[3] = "./images/prototype-app-3_1366x768.png";
 images7[4] = "./images/prototype-app-4_1366x768.png";
 
-
-
 // Change Image7
 function changeImg7() {
-    document.slide7.src = images7[e];
+  document.slide7.src = images7[e];
 
-    // Check If Index Is Under Max
-    if (e < images7.length - 1) {
-        // Add 1 to Index
-        e++;
-    } else {
-        // Reset Back To O
-        e = 0;
-    }
+  // Check If Index Is Under Max
+  if (e < images7.length - 1) {
+    // Add 1 to Index
+    e++;
+  } else {
+    // Reset Back To O
+    e = 0;
+  }
 }
 
 // Run function every x seconds
-setInterval(changeImg7, time)
+setInterval(changeImg7, time);
 
 // Run function when page loads
 window.onload = changeImg7;
