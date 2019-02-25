@@ -6,6 +6,7 @@ let c = 0;
 let d = 0;
 let e = 0;
 let f = 0;
+let images8 = [];
 let images7 = [];
 let images6 = [];
 let images5 = [];
@@ -226,3 +227,28 @@ setInterval(changeImg7, time);
 
 // Run function when page loads
 window.onload = changeImg7;
+
+// Image List f
+images8[0] = "./images/huset-jazz3_1366x768.png";
+images8[1] = "./images/huset-jazz2_1366x768.png";
+images8[2] = "./images/huset-jazz1_1366x768.png";
+
+// Change Image7
+function changeImg8() {
+  document.slide8.src = images8[f];
+
+  // Check If Index Is Under Max
+  if (f < images8.length - 1) {
+    // Add 1 to Index
+    f++;
+  } else {
+    // Reset Back To O
+    f = 0;
+  }
+}
+
+// Run function every x seconds
+setInterval(changeImg8, time);
+
+// Run function when page loads
+window.onload = changeImg8;
