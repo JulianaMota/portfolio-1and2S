@@ -171,6 +171,7 @@
 
 #laptop-icon:hover {
   opacity: 0.7;
+  transform: scale(1.1);
 }
 
 .main #camera-icon {
@@ -193,6 +194,7 @@
 
 #camera-icon:hover {
   opacity: 0.7;
+  transform: scale(1.1);
 }
 
 .main #animation-icon {
@@ -215,6 +217,7 @@
 
 #animation-icon:hover {
   opacity: 0.7;
+  transform: scale(1.1);
 }
 
 .hover-icons2 {
@@ -256,6 +259,7 @@
 
 #ux-icon:hover {
   opacity: 0.7;
+  transform: scale(1.1);
 }
 
 /*--------------desktop home footer------*/
